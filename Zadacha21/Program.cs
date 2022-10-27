@@ -19,5 +19,5 @@ Console.Write("Введите z2: ");
 double z2 = Convert.ToDouble(Console.ReadLine());
 
 double R = Math.Sqrt(Math.Pow((x2 - x1), 2) + Math.Pow((y2 - y1), 2) + Math.Pow((z2 - z1), 2));
-Console.WriteLine("R = {0}", R);
+Console.WriteLine($"R = {R}");
 Console.ReadLine();
