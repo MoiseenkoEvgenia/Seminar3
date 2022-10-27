@@ -5,7 +5,7 @@
 // 23432 -> да
 
 
-Console.WriteLine("Введите слово");
+Console.WriteLine("Введите число: ");
 string text = Console.ReadLine();
 int i = 0, j = text.Length - 1;
 while ((i<j) && (text[i] == text[j]))
